@@ -1,4 +1,4 @@
 const calculateArea = (width, height = `${width}`) =>{
-    console.log(`The Width And Height Is: ${width} ${height}`);
+    console.log(`Width: ${width} \nHeight: ${height}`);
 }
 calculateArea(10);
