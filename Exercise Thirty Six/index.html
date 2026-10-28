@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Thirty Six</title>
+    <style>
+        *{
+            margin: 10px;
+            padding: 0;
+        }
+        ul li {
+            list-style: none;
+            margin: 0;
+        }
+        .preview-color{
+            margin: 10px 15px;
+            width: 160px;
+            height: 120px;
+            border: 2px solid #000;
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Color Picker</h1>
+    <label for="color">Choose Color</label>
+    <input type="color" name="color" id="colorPick">
+    <div class="preview-color" id="previewColor">
+        <p>Preview Color</p>
+    </div>
+    <h2>History</h2>
+    <ul class="historyColor" id="historyColor">
+
+    </ul>
+    <button id="clearBtn">Clear History</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
