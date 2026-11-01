@@ -1,7 +1,7 @@
 const pickColor = document.querySelector("#colorPick");
 const displayColor = document.querySelector("#previewColor");
 const historyColor = document.querySelector("#historyColor");
-const clearBtn = document.querySelector('#clearBtn');
+const clearBtn = document.querySelector("#clearBtn");
 
 pickColor.addEventListener("input", function () {
   const chosenColor = pickColor.value;
@@ -14,9 +14,9 @@ pickColor.addEventListener("input", function () {
     historyDisplay.textContent = hexColor;
     historyDisplay.style.color = hexColor;
     historyColor.appendChild(historyDisplay);
-    clearBtn.addEventListener('click', function(){
-        historyDisplay.textContent = ''
-    })
+    clearBtn.addEventListener("click", function () {
+      historyDisplay.textContent = "";
+    });
   }
   history();
 });
